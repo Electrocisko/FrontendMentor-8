@@ -20,39 +20,39 @@ const handleSubmit = (evt, form) => {
   if (formCompleted) {
     form.reset();
     formCompleted = false;
-  } 
+  }
 };
 
 function validateForm(user) {
   if (!user.fname) {
     firstName.classList.add("error");
-    warningFirstName.classList.remove('hide');
+    warningFirstName.classList.remove("hide");
   } else {
     firstName.classList.remove("error");
-    warningFirstName.classList.add('hide');
+    warningFirstName.classList.add("hide");
   }
   if (!user.lname) {
     lastName.classList.add("error");
-    warningLastName.classList.remove('hide');
+    warningLastName.classList.remove("hide");
   } else {
     lastName.classList.remove("error");
-    warningLastName.classList.add('hide');
+    warningLastName.classList.add("hide");
   }
-  if (!user.email) {
+  if (!user.email || !regEx.test(user.email)) {
     email.classList.add("error");
-    warningEmail.classList.remove('hide');
+    warningEmail.classList.remove("hide");
   } else {
     email.classList.remove("error");
-    warningEmail.classList.add('hide');
+    warningEmail.classList.add("hide");
   }
   if (!user.password) {
     password.classList.add("error");
-    warningPassword.classList.remove('hide');
+    warningPassword.classList.remove("hide");
   } else {
     password.classList.remove("error");
-    warningPassword.classList.add('hide');
+    warningPassword.classList.add("hide");
   }
-  if (user.fname && user.lname && user.email && user.password) {
+  if (user.fname && user.lname && user.email && user.password && regEx.test(user.email) ) {
     formCompleted = true;
   }
 }
