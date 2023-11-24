@@ -28,7 +28,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--color-Red);
-    background-image: url('../images/bg-intro-desktop.png');
+    background-image: url('../images/bg-intro-mobile.png');
 }
 
 .container {
