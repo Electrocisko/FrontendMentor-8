@@ -67,7 +67,7 @@ body {
     width: 50%;
 }
 
-.form--button--trial {
+a .form--button--trial {
     padding: 1rem;
     border: none;
     border-radius: 10px;
@@ -75,7 +75,10 @@ body {
     box-shadow: 1 px 5px 5px black;
     color: white;
     font-weight: 400;
+    width: 100%;
+    cursor: pointer;
 }
+
 
 .form--button--trial span {
     font-weight: 700;
