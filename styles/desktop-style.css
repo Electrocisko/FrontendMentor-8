@@ -102,7 +102,7 @@ body {
 }
 
 
-.form--inputs input:focus {
+.form--inputs input:hover {
     border: solid var(--color-Dark-blue) 0.5px;
 }
 
