@@ -72,7 +72,7 @@ body {
     border: none;
     border-radius: 10px;
     background-color: var(--color-Blue);
-    box-shadow: 1   px 5px 5px black;
+    box-shadow: 1 px 5px 5px black;
     color: white;
     font-weight: 400;
 }
@@ -103,14 +103,14 @@ body {
 
 
 .form--inputs input:focus {
-    border: solid var(--color-Dark-blue) 1px;
+    border: solid var(--color-Dark-blue) 0.5px;
 }
 
 .form--inputs p {
     font-size: 10px;
     text-align: center;
-   margin-top: 1rem;
-   margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .form--inputs p span {
@@ -138,4 +138,9 @@ body {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.error {
+    border: solid red 2px !important;
+    color: darkblue;
 }

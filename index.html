@@ -37,11 +37,11 @@
       </div>
       <div class="container--form">
         <button class="form--button--trial"><span>Try it free 7 days</span> then $20/mo. thereafter</button>
-        <form class="form--inputs">
-          <input type="text" placeholder="First Name"/>
-          <input type="text" placeholder="Last Name"/>
-          <input type="text" placeholder="Email"/>
-          <input type="text" placeholder="Address Password"/>
+        <form class="form--inputs" id="form">
+          <input type="text" name="fname" id="fname" placeholder="First Name"/>
+          <input type="text" name="lname"  id="lname" placeholder="Last Name"/>
+          <input type="text" name="email" id="email" placeholder="Email Address"/>
+          <input type="password" name="password"  id="password" placeholder="Password"/>
           <button  class="form--button--submit" type="submit">Claim your free trial</button>
           <p>  By clicking the button, you are agreeing to our <span>Terms and Services</span> </p>
         </form>
@@ -59,5 +59,6 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </p>
     </footer>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>
