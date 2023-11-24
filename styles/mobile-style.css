@@ -137,3 +137,26 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+.error {
+    border: solid red 2px !important;
+    color: darkblue;
+}
+
+.form--inputs .form--info  {
+ margin: 0rem 2rem;
+ color: var(--color-Red);
+ font-style: italic;
+ text-align: end;
+}
+
+.hide {
+    display: none;
+}
+
+.warningIcon{
+    background-image: url('../images/icon-error.svg');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position:   95% ;
+}

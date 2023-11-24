@@ -155,3 +155,10 @@ body {
 .hide {
     display: none;
 }
+
+.warningIcon{
+    background-image: url('../images/icon-error.svg');
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position:   95% ;
+}
